@@ -1,8 +1,8 @@
 {
-  "name": "react-big-calendar",
+  "name": "react-big-calendar-with-event-truncate",
   "version": "0.10.3",
   "description": "Calendar! with events",
-  "author": "Jason Quense <monastic.panic@gmail.com>",
+  "author": "Sean Bullock <sean@bluespore.com>",
   "repository": "intljusticemission/react-big-calendar",
   "license": "MIT",
   "main": "lib/index.js",
