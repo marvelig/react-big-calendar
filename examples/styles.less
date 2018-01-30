@@ -8,6 +8,10 @@ body {
   font-size: 16px;
 }
 
+h4 {
+  margin-top: 20px;
+}
+
 .jumbotron {
   background-color: @blue;
   color: white;
@@ -34,13 +38,18 @@ body {
 
 .examples {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
+  height: min-content;
   display: flex;
   flex-direction: column;
 }
 
 .example {
   font-size: 14px;
+  padding: 0 40px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
   flex: 1;
 
   &,
@@ -66,7 +75,8 @@ aside {
   margin-bottom: 40px;
 }
 
-h3 > a > code {
+h3 > a > code,
+h4 > a > code  {
   color: @blue;
   background: none;
   padding: 0;
