@@ -281,6 +281,13 @@ class Calendar extends React.Component {
    scrollToTime: PropTypes.instanceOf(Date),
 
    /**
+    * Allows the event list truncating to be turned off by defaulting 
+    * to a limit of `Infinity`, rather than passing a specific limit 
+    * on the month view. Default value is `true`.
+    */
+   truncateEvents: PropTypes.bool,
+
+   /**
     * Specify a specific culture code for the Calendar.
     *
     * **Note: it's generally better to handle this globally via your i18n library.**

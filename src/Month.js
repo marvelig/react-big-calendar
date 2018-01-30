@@ -170,7 +170,7 @@ class MonthView extends React.Component {
         className="rbc-month-row"
         range={week}
         events={events}
-        maxRows={rowLimit}
+        maxRows={this.props.truncateEvents ? rowLimit : Infinity}
         selected={selected}
         selectable={selectable}
         messages={messages}
